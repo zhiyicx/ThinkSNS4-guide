@@ -34,7 +34,7 @@
 
 - 配置新浪
 
-  >![config_sina_weibo]
+  >![config_sina]
 
 - 配置微信
   >**注：**  
@@ -44,10 +44,10 @@
 
 - 配置QQ
 
-  >![config_qq_1]
+  >![config_qq1]
   
   将红框部分tencent100358969 数字部分更改为你申请到的AppId.
-  >![config_qq_2]
+  >![config_qq2]
   
 - 配置极光推送
 
@@ -62,9 +62,9 @@
 - 配置友盟
 
   >改主Model（Thinksns_v4.0）下的Android Manifest如图value值  
-  >![config_umeng_1]  
+  >![config_umeng1]  
   >更改三方分享链接地址（位于主Model下的string.xml）
-  >![config_umeng_2] 
+  >![config_umeng2] 
 
 ### 服务器地址配置
   - API地址及聊天Socket地址；此步骤不可忽略，否则将会使用ThinkSNS官方提供的内容，务必提供。
@@ -76,16 +76,26 @@
   
 ### 资源替换
 
-#### 1. APP图标替换，位于 `app/src/main/res` ,` icon.png`
+#### 1. APP图标替换
+- 配置App桌面图片
+  >![config_appicon] 
 
+- 替换app图标  
 | 位置（icon.png） | 大小（宽x高） | 图标 |
 |:-----:|:-----:|:-----:|
 | mipmap-hdpi | 72x72   | ![icon_hdpi]|
 | mipmap-xhdpi | 96x96  | ![icon_xhdpi]|
 | mipmap-xxhdpi | 144x144 | ![icon_xxhdpi] |
-| mipmap-xxxhdpi | 192x192 | ![icon_xxxhdpi] |
+| mipmap-xxxhdpi | 192x192 | ![icon_xxxhdpi] |  
 
-#### 2. 引导图替换, 位于 `baseproject/src/main/res/` ,`guide.png`
+**注：**drawable-hdpi和drawable-xhdpi分别代表高分辨率和超高分辨率图片目录，制作尺寸可参考ThinkSNS提供的图标尺寸。
+#### 2. 启动图和引导图替换
+官方提供了5张引导图，制作自己的引导界面然后替换drawable-xxxdpi目录中的对应文件  
+**注：显示的先后顺序是按命名的后缀_01、_02 数字排序的**
+>![config_guideimg]  
+在目录res/drawable-xxxdpi采用相同的替换方式修改自己的APP启动图，如图：  
+>![config_pic]  
+>![config_start]
 
 | 位置（guide.png） | 大小（宽x高） | 图标 |
 |:-----:|:-----:|:-----:|
@@ -93,8 +103,14 @@
 | mipmap-xhdpi | 720x1280  | |
 | mipmap-xxhdpi | 1080x1920 | ![guide]|
 | mipmap-xxxhdpi | 1440x2560 |  |
-#### 3. 广告底部 logo、发布页 logo 图标替换, 位于 `app/src/main/res/` ,`pic_adver_logo.png`
 
+#### 3. 登录logo和主页logo图标替换
+1.修改登录页图标只需要替换 项目路径res下的drawable-hdpi和drawable-xhdpi 的`ic_login_logo`图标
+  >![config_logologin]
+
+2.修改主页图标替换 项目路径res下的drawable-hdpi和drawable-xhdpi 的logo图标
+  >![config_logotop]
+    
 | 位置（guide.png） | 大小（宽x高） | 图标 |
 |:-----:|:-----:|:-----:|
 | mipmap-hdpi | 288x86  |![guide_logo_hdpi]|
@@ -102,83 +118,68 @@
 | mipmap-xxhdpi | 576x173 | ![guide_logo_xxhdpi]|
 | mipmap-xxxhdpi | 763x230 |![guide_logo_xxxhdpi] |
 
-#### 4. 缺省信息图片替换, 位于 `baseproject/src/main/res/` ,`guide.png`，此处以 `xhdip`文件下的说明，具体替换时，请同时替换`hdpi、xhdpi、xxhdpi、xxxhdpi`
-| 名字 | 说明 | 图标 |
-|:-----:|:-----:|:-----:|
-| pic_default_man.png | 默认头像，男  |![pic_default_man]|
-| pic_default_woman.png | 默认头像，女  |![pic_default_woman]|
-| pic_default_secret.png | 默认头像，保密  |![pic_default_secret]|
-| img_default_delete.png | 默认删除缺省图  |![img_default_delete]|
-| img_default_internet.png | 默认网络差缺省图  |![img_default_internet]|
-| img_default_nobody.png | 默认没有用户缺省图  |![img_default_nobody]|
-| img_default_nothing.png | 默认什么也没有缺省图  |![img_default_nothing]|
-| img_default_search.png | 默认没有搜索到缺省图  |![img_default_search]|
+#### 4. 缺省图片替换
+- 在model ThinkSnsBase 下的res里面对应的hdpi/xhpdi/xxhdpi 更换素材  
+  >![config_default_img]
+| name | hdpi | xhdpi | xxhdpi  |xxxhdpi|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| image80x80.png | `60*60` | `80*80` | `120*120` | `160*160` |![image80x80]|
+| image80x80yuanjiao.png | `60*60` | `80*80` | `120*120` | `160*160` |![image80x80yuanjiao]|
+| image120x120.png | `90*90` | `120*120` | `180*180` | `240*240` |![image120x120]|
+| image200x172.png | `150*129` | `200*172` | `300*258` | `400*344` |![image200x172]|
+| image227x227.png | `171*171` | `228*228` | `342*342` | `456*456` |![image227x227]|
+| image296x296.png | `222*222` | `296*296` | `444*444` | `592*592` |![image296x296]|
+| image327x327.png | `246*246` | `328*328` | `492*492` | `656*656` |![image327x327]|
+| image602x338.png | `452*254` | `602*338` | `903*507` | `1204*676` |![image602x338]|
+| image750x375.png | `563*281` | `750*375` | `1125*563` | `1500*750` |![image750x375]|
+| image750x446.png | `563*335` | `750*447` | `1125*671` | `1500*894` |![image750x446]|
+| image750x574.png | `563*431` | `750*574` | `1125*861` | `1500*1148` |![image750x574]|
 
-#### 5. 主页底部导航栏替换，位于 `app/main/src/res/`,，此处以 `xhdip`文件下的说明，具体替换时，请同时替换`hdpi、xhdpi、xxhdpi、xxxhdpi`
-
+#### 5. 主页底部导航栏替换
+- 在\thinksns-system-android\Thinksns_v4.0\res\下的对应的 drawable-hdpi 、drawable-xhdpi、drawable-xxhdpi、drawable-xxxhdpi 替换如下图标：  
+  >![config_guide_tab]  
+  
 |名字 |大小（宽x高）| 说明 | 图标 |
 |:-----:|:-----:|:-----:|:-----:|
-| common_ico_bottom_add.png | 120x98| 加号  |![common_ico_bottom_add]|
-| common_ico_bottom_discover_high.png | 48x48 | 发现高亮  |![common_ico_bottom_discover_high]|
-| common_ico_bottom_discover_normal.png | 48x48 | 发现常规  |![common_ico_bottom_discover_normal]|
-| common_ico_bottom_home_high.png | 48x48 | 主页高亮  |![common_ico_bottom_home_high]|
-| common_ico_bottom_home_normal.png | 48x48 | 主页常规  |![common_ico_bottom_home_normal]|
-| common_ico_bottom_me_high.png | 48x48 | 我的高亮  |![common_ico_bottom_me_high]|
-| common_ico_bottom_me_normal.png | 48x48 | 我的常规  |![common_ico_bottom_me_normal]|
-| common_ico_bottom_me_remind.png | 48x48 | 我的带小红点  |![common_ico_bottom_me_remind]|
-| common_ico_bottom_message_high.png | 48x48 | 消息高亮  |![common_ico_bottom_message_high]|
-| common_ico_bottom_message_normal.png | 48x48 | 消息常规  |![common_ico_bottom_message_normal]|
-| common_ico_bottom_message_remind.png | 48x48 | 消息带小红点  |![common_ico_bottom_message_remind]|
+| compass_high.png | 120x98| 发现页选中图标  |![compass_high]|
+| compass_normal.png | 48x48 | 发现页未选中图标  |![compass_normal]|
+| home_high.png | 48x48 | 主页选中图标  |![home_high]|
+| home_normal.png | 48x48 | 主页未选中图标  |![home_normal]|
+| messages_high.png | 48x48 | 消息页选中图标  |![messages_high]|
+| messages_normal.png | 48x48 | 消息页未选中图标  |![messages_normal]|
+| user_high.png | 48x48 | 我的页面选中图标  |![user_high]|
+| user_normal.png | 48x48 | 我的页面未选中图标  |![user_normal]|
 
+#### 6. App基础样式
 
+- App名称
+  >![config_app_name]
+  - 文件所在位置为主工程下的res/app_init_set.xml文件
+  
+- 顶部栏样式系统色调
+  - 路径：thinksns-system-android\Thinksns_v4.0\res\values\thinksnsv4value.xml
+  >![config_app_color]
 
-#### 6. App 名字修改，位于 `app/src/main/res/values/strings.xml`,修改 `app_name` 即可。
-
-```
-<resources>
-    <string name="app_name">ThinkSNS+</string>
-    <string name="copyright">Powered by ThinkSNS ©2017 ZhishiSoft All Rights Reserced.</string>
-    ...
-
-```
-
-#### 7. 修改主体颜色、文字大小、间距等。
-
-具体信息可以查看 [视觉文档](../design/DESIGN.md)
-
-
+- 资源文件说明
+  >![config_app_info]
 
 --------------------------------
-[config_capture]:../image/config_capture.png "包名配置"
-[signature_show]:../image/signature_show.jpeg "包名配置"
-[share_packge_change]:../image/share_packge_change.jpeg "包名配置"
-[icon_hdpi]:../image/icon_hdpi.png "hdpi"
-[icon_xhdpi]:../image/icon_xhdpi.png "xhdpi"
-[icon_xxhdpi]:../image/icon_xxhdpi.png "xxhdpi"
-[icon_xxxhdpi]:../image/icon_xxxhdpi.png "xxxhdpi"
-[guide]:../image/guide.png "guide"
-[guide_logo_hdpi]:../image/pic_adver_logo_hdpi.png "guide_logo_hdpi"
-[guide_logo_xhdpi]:../image/pic_adver_logo_xhdpi.png "guide_logo_hdpi"
-[guide_logo_xxhdpi]:../image/pic_adver_logo_xxhdpi.png "guide_logo_hdpi"
-[guide_logo_xxxhdpi]:../image/pic_adver_logo_xxxhdpi.png "guide_logo_hdpi"
-[pic_default_portrait1]:../image/pic_default_portrait1.png "默认头像，不带边框"
-[pic_default_portrait2]:../image/pic_default_portrait2.png "默认头像，带白色边框"
-[pic_default_man]:../image/pic_default_man.png "默认头像，男"
-[pic_default_woman]:../image/pic_default_woman.png "默认头像，女"
-[pic_default_secret]:../image/pic_default_secret.png "默认头像，保密"
-[img_default_delete]:../image/img_default_delete.png "默认删除缺省图"
-[img_default_internet]:../image/img_default_internet.png "默认网络差缺省图"
-[img_default_nobody]:../image/img_default_nobody.png "默认没有用户缺省图"
-[img_default_nothing]:../image/img_default_nothing.png "默认什么也没有缺省图"
-[img_default_search]:../image/img_default_search.png "默认没有搜索到缺省图"
-[common_ico_bottom_add]:../image/common_ico_bottom_add.png "加号"
-[common_ico_bottom_discover_high]:../image/common_ico_bottom_discover_high.png "发现高亮"
-[common_ico_bottom_discover_normal]:../image/common_ico_bottom_discover_normal.png "发现常规"
-[common_ico_bottom_home_high]:../image/common_ico_bottom_home_high.png "主页高亮"
-[common_ico_bottom_home_normal]:../image/common_ico_bottom_home_normal.png "主页常规"
-[common_ico_bottom_me_high]:../image/common_ico_bottom_me_high.png "我的高亮"
-[common_ico_bottom_me_normal]:../image/common_ico_bottom_me_normal.png "我的常规"
-[common_ico_bottom_me_remind]:../image/common_ico_bottom_me_remind.png "我的带小红点"
-[common_ico_bottom_message_high]:../image/common_ico_bottom_message_high.png "消息高亮"
-[common_ico_bottom_message_normal]:../image/common_ico_bottom_message_normal.png "消息常规"
-[common_ico_bottom_message_remind]:../image/common_ico_bottom_message_remind.png "消息带小红点"
+[config_capture]:../image/config_capture.png 
+[signature_show]:../image/signature_show.jpeg 
+[key_store]:../image/key_store.jpeg 
+[config_shareSdk]:../image/config_shareSdk.png 
+[config_app_color]:../image/config_app_color.png 
+[config_default_img]:../image/config_default_img.png
+[config_guideimg]:../image/config_guideimg.png 
+[config_jipush]:../image/config_jipush.png
+[config_logologin]:../image/config_logologin.png 
+[config_logotop]:../image/config_logotop.png 
+[config_pic]:../image/config_pic.png 
+[config_qq1]:../image/config_qq1.png 
+[config_qq2]:../image/config_qq2.png 
+[config_sina]:../image/config_sina.png 
+[config_umeng1]:../image/config_umeng1.png
+[config_start]:../image/config_start.png 
+[config_umeng2]:../image/config_umeng2.png 
+[config_url]:../image/config_url.png
+[config_wechat]:../image/config_wechat.png
