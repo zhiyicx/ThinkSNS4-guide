@@ -16,7 +16,7 @@
 - 1.配置编译器的内存大小（主Model build.gradle中）  
 ![install_apk_4]  
 
-————————————————————————————————————————————————
+--------------------------------
 [install_apk_1]:../image/install_apk_1.png
 [install_apk_2]:../image/install_apk_2.png
 [install_apk_3]:../image/install_apk_3.png
