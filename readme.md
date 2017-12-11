@@ -10,9 +10,8 @@ ThinkSNS+ 产品使用指南,记录TS+全部产品使用手册等内容.
 
 移动端打包上线所需资料说明
 ## 服务文档资料
-- [产品介绍]
-- 企业及应用案例介绍
-- 开源授权协议预览
+- [ThinkSNS_Android开发文档](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/app/ts4_developer_guide.md)
+- [TS app端需要准备资料](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/app/prepare.md)
 ## 产品文档
 - 移动端使用手册
 - 后台使用手册
@@ -34,14 +33,10 @@ ThinkSNS+ 产品使用指南,记录TS+全部产品使用手册等内容.
   - iOS端二次开发常见问题集
 - Android端
 
-  - Android端开发须知概述
-  - Android端二次开发文档
-  - BUG-友盟统计
-  - 第三方账号申请指导
-  - Android端素材替换文档
-  - Android签名文件
-  - Android端打包操作指导
-  - Android端API接口文档
+  - [android打包教程](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/app/package_apk.md)
+  - TS安卓APP安装文档
+  - TS安卓素材替换文档最新
+  - 创建Androi签名文件
 - PC端
 
   - [PC端开发概述]
