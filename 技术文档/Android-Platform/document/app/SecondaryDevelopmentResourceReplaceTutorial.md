@@ -81,13 +81,8 @@
   >![config_appicon] 
 
 - 替换app图标  
-
-| 位置（icon.png） | 大小（宽x高） |
-|:-----:|:-----:|
-| mipmap-hdpi | 72x72   |
-| mipmap-xhdpi | 96x96  |
-| mipmap-xxhdpi | 144x144 |
-| mipmap-xxxhdpi | 192x192 |
+制作自己的icon图标，然后替换项目路径res/drawable-hdpi(151*151)的icon图标，如图所示  
+![app_icon]
 
 **注：** drawable-hdpi和drawable-xhdpi分别代表高分辨率和超高分辨率图片目录，制作尺寸可参考ThinkSNS提供的图标尺寸。
 #### 2. 启动图和引导图替换
@@ -97,13 +92,6 @@
 在目录res/drawable-xxxdpi采用相同的替换方式修改自己的APP启动图，如图：  
 >![config_pic]  
 >![config_start]
-
-| 位置（guide.png） | 大小（宽x高） | 图标 |
-|:-----:|:-----:|:-----:|
-| mipmap-hdpi | 480x800  |  |
-| mipmap-xhdpi | 720x1280  |  |
-| mipmap-xxhdpi | 1080x1920 |![guide]|
-| mipmap-xxxhdpi | 1440x2560 |  |
 
 #### 3. 登录logo和主页logo图标替换
 1.修改登录页图标只需要替换 项目路径res下的drawable-hdpi和drawable-xhdpi 的`ic_login_logo`图标
