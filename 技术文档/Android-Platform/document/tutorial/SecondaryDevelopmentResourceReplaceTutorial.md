@@ -99,9 +99,9 @@
 
 | 位置（guide.png） | 大小（宽x高） | 图标 |
 |:-----:|:-----:|:-----:|
-| mipmap-hdpi | 480x800  ||
-| mipmap-xhdpi | 720x1280  | |
-| mipmap-xxhdpi | 1080x1920 | ![guide]|
+| mipmap-hdpi | 480x800  |  |
+| mipmap-xhdpi | 720x1280  |  |
+| mipmap-xxhdpi | 1080x1920 |![guide]|
 | mipmap-xxxhdpi | 1440x2560 |  |
 
 #### 3. 登录logo和主页logo图标替换
@@ -121,7 +121,7 @@
 #### 4. 缺省图片替换
 - 在model ThinkSnsBase 下的res里面对应的hdpi/xhpdi/xxhdpi 更换素材  
   >![config_default_img]
-| name | hdpi | xhdpi | xxhdpi  |xxxhdpi|
+| name | hdpi | xhdpi | xxhdpi  |xxxhdpi|图片|
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | image80x80.png | `60*60` | `80*80` | `120*120` | `160*160` |![image80x80]|
 | image80x80yuanjiao.png | `60*60` | `80*80` | `120*120` | `160*160` |![image80x80yuanjiao]|
@@ -183,3 +183,22 @@
 [config_umeng2]:../image/config_umeng2.png 
 [config_url]:../image/config_url.png
 [config_wechat]:../image/config_wechat.png
+[config_guide_tab]:../image/config_guide_tab.png
+[config_app_info]:../image/config_app_info.png
+[config_app_name]:../image/config_app_name.png
+[config_appicon]:../image/config_appicon.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
+[config_gaode]:../image/config_gaode.png
