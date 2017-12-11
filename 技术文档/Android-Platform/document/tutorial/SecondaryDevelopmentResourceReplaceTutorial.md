@@ -81,6 +81,7 @@
   >![config_appicon] 
 
 - 替换app图标  
+
 | 位置（icon.png） | 大小（宽x高） | 图标 |
 |:-----:|:-----:|:-----:|
 | mipmap-hdpi | 72x72   | ![icon_hdpi]|
@@ -121,6 +122,7 @@
 #### 4. 缺省图片替换
 - 在model ThinkSnsBase 下的res里面对应的hdpi/xhpdi/xxhdpi 更换素材  
   >![config_default_img]
+
 | name | hdpi | xhdpi | xxhdpi  |xxxhdpi|图片|
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | image80x80.png | `60*60` | `80*80` | `120*120` | `160*160` |![image80x80]|
@@ -165,8 +167,8 @@
 
 --------------------------------
 [config_capture]:../image/config_capture.png 
-[signature_show]:../image/signature_show.jpeg 
-[key_store]:../image/key_store.jpeg 
+[signature_show]:../image/signature_show.png 
+[key_store]:../image/key_store.png 
 [config_shareSdk]:../image/config_shareSdk.png 
 [config_app_color]:../image/config_app_color.png 
 [config_default_img]:../image/config_default_img.png
