@@ -34,9 +34,9 @@ ThinkSNS+ 产品使用指南,记录TS+全部产品使用手册等内容.
 - Android端
 
   - [android打包教程](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/app/package_apk.md)
-  - TS安卓APP安装文档
-  - TS安卓素材替换文档最新
-  - 创建Androi签名文件
+  - [TS安卓APP安装文档](./技术文档\Android-Platform\document\app\InstallApk.md)
+  - [TS安卓素材替换文档最新](./技术文档\Android-Platform\document\app\SecondaryDevelopmentResourceReplaceTutorial.md)
+  - [创建Androi签名文件](./技术文档\Android-Platform\document\app\AndroidCreateSignatureFileTutorial.md)
 - PC端
 
   - [PC端开发概述]
