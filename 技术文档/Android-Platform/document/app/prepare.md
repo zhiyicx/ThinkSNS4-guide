@@ -49,18 +49,21 @@ http://developer.huawei.com/cn/
 .2) 必须申请开发者认证  
     -  认证地址：https://open.weixin.qq.com/verify/wxverify?from=open&action=step&t=public/wxverify/index&step=proto  
     -  认证需要资料：https://open.weixin.qq.com/verify/wxverify?from=open&action=step&t=public/wxverify/index&step=proto
-- 4.3 新浪微博
-费用：免费
-说明：1）注册地址：http://weibo.com/signup/signup.php?c=&type=&inviteCode=&code=&spe=&lang=zh
-	 2）必须申请成为个人开发者或者公司开发者
-		公司开发者可以创建“微应用”。TS没有使用“微应用”服务。
-		个人开发者后期可以成为公司开发者。
-		认证地址：http://open.weibo.com/developers/basicinfo?dev_type=1
-		认证需要资料：http://open.weibo.com/developers/basicinfo?dev_type=1	
-4.4 shareSDK
-费用：免费
-说明：1）注册地址：http://www.mob.com/#/reg
-	  2）无须成为开发者  
+- 4.3 新浪微博  
+费用：免费  
+说明：  
+.1) 注册地址：http://weibo.com/signup/signup.php?c=&type=&inviteCode=&code=&spe=&lang=zh  
+.2) 必须申请成为个人开发者或者公司开发者
+	- 公司开发者可以创建“微应用”。TS没有使用“微应用”服务。
+	- 个人开发者后期可以成为公司开发者。
+	- 认证地址：http://open.weibo.com/developers/basicinfo?dev_type=1
+	- 认证需要资料：http://open.weibo.com/developers/basicinfo?dev_type=1  
+	- 
+- 4.4 shareSDK  
+费用：免费  
+说明：  
+.1) 注册地址：http://www.mob.com/#/reg  
+.2) 无须成为开发者  
 5. 极光推送  
 费用：免费  
 说明：  
@@ -113,10 +116,23 @@ Android 说明：   （宽）*（高） 单位：像素px
      
 - 桌面图标：［注意：不要切圆角，这个是正方形的］
  29x29、58×58、87×87、80x80、120x120、57x57、114x114、180x180
-![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_1.png)
-- 启动图：640 × 960、640 × 1136、1242 × 2208、750 × 1334 ![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_2.png)
-- 登录页 logo：  477 × 107 ![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_3.png)            
-- 首页  banner logo：225 × 53 ![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_4.png)
-- 引导页  960 × 1704 ![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_5.png) 
--  首页底部四个切换按钮  63 × 63 ![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_6.png)
-- 首页底部中间弹出按钮（加号样式） 128 × 98 ![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_7.png)
+
+![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_1.png)  
+- 启动图：640 × 960、640 × 1136、1242 × 2208、750 × 1334
+
+![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_2.png)
+- 登录页 logo：  477 × 107 
+
+![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_3.png)            
+- 首页  banner logo：225 × 53 
+
+![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_4.png)
+- 引导页  960 × 1704 
+
+![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_5.png) 
+-  首页底部四个切换按钮  63 × 63 
+
+![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_6.png)
+- 首页底部中间弹出按钮（加号样式） 128 × 98 
+
+![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_7.png)
