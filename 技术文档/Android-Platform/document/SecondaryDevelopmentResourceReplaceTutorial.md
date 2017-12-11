@@ -4,7 +4,7 @@
 
 ### 包名应用签名替换  
 1.包名修改 ，在项目路径下config.gradle文件中修改自己的包名名称。路径地址：thinksns-system-android\config.gradle。  
-**注：**必须提供自己的包名名称，建议全部小写，格式参考图示
+**注：** 必须提供自己的包名名称，建议全部小写，格式参考图示
   > 1. 必须提供自己的包名名称。
   > 2. 包名规则：采用反写域名命名规则，即 `com.xx.xxx.xxxx` 形式，全部使用小写字母。一级包名为com，二级包名为xx（一般为公司或个人域名），三级包名根据应用进行命名，四级包名为功能模块名。如：`com.tencent.qq.activitys` ，这样具备较高可读性，一看就知道是腾讯公司QQ软件中存放activity的包。
 
@@ -82,14 +82,14 @@
 
 - 替换app图标  
 
-| 位置（icon.png） | 大小（宽x高） | 图标 |
-|:-----:|:-----:|:-----:|
-| mipmap-hdpi | 72x72   | ![icon_hdpi]|
-| mipmap-xhdpi | 96x96  | ![icon_xhdpi]|
-| mipmap-xxhdpi | 144x144 | ![icon_xxhdpi] |
-| mipmap-xxxhdpi | 192x192 | ![icon_xxxhdpi] |  
+| 位置（icon.png） | 大小（宽x高） |
+|:-----:|:-----:|
+| mipmap-hdpi | 72x72   |
+| mipmap-xhdpi | 96x96  |
+| mipmap-xxhdpi | 144x144 |
+| mipmap-xxxhdpi | 192x192 |
 
-**注：**drawable-hdpi和drawable-xhdpi分别代表高分辨率和超高分辨率图片目录，制作尺寸可参考ThinkSNS提供的图标尺寸。
+**注：** drawable-hdpi和drawable-xhdpi分别代表高分辨率和超高分辨率图片目录，制作尺寸可参考ThinkSNS提供的图标尺寸。
 #### 2. 启动图和引导图替换
 官方提供了5张引导图，制作自己的引导界面然后替换drawable-xxxdpi目录中的对应文件  
 **注：显示的先后顺序是按命名的后缀_01、_02 数字排序的**
@@ -111,46 +111,39 @@
 
 2.修改主页图标替换 项目路径res下的drawable-hdpi和drawable-xhdpi 的logo图标
   >![config_logotop]
-    
-| 位置（guide.png） | 大小（宽x高） | 图标 |
-|:-----:|:-----:|:-----:|
-| mipmap-hdpi | 288x86  |![guide_logo_hdpi]|
-| mipmap-xhdpi | 384x115  | ![guide_logo_xhdpi]|
-| mipmap-xxhdpi | 576x173 | ![guide_logo_xxhdpi]|
-| mipmap-xxxhdpi | 763x230 |![guide_logo_xxxhdpi] |
 
 #### 4. 缺省图片替换
 - 在model ThinkSnsBase 下的res里面对应的hdpi/xhpdi/xxhdpi 更换素材  
   >![config_default_img]
 
-| name | hdpi | xhdpi | xxhdpi  |xxxhdpi|图片|
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| image80x80.png | `60*60` | `80*80` | `120*120` | `160*160` |![image80x80]|
-| image80x80yuanjiao.png | `60*60` | `80*80` | `120*120` | `160*160` |![image80x80yuanjiao]|
-| image120x120.png | `90*90` | `120*120` | `180*180` | `240*240` |![image120x120]|
-| image200x172.png | `150*129` | `200*172` | `300*258` | `400*344` |![image200x172]|
-| image227x227.png | `171*171` | `228*228` | `342*342` | `456*456` |![image227x227]|
-| image296x296.png | `222*222` | `296*296` | `444*444` | `592*592` |![image296x296]|
-| image327x327.png | `246*246` | `328*328` | `492*492` | `656*656` |![image327x327]|
-| image602x338.png | `452*254` | `602*338` | `903*507` | `1204*676` |![image602x338]|
-| image750x375.png | `563*281` | `750*375` | `1125*563` | `1500*750` |![image750x375]|
-| image750x446.png | `563*335` | `750*447` | `1125*671` | `1500*894` |![image750x446]|
-| image750x574.png | `563*431` | `750*574` | `1125*861` | `1500*1148` |![image750x574]|
+| name | hdpi | xhdpi | xxhdpi  |xxxhdpi|
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| image80x80.png | `60*60` | `80*80` | `120*120` | `160*160` |
+| image80x80yuanjiao.png | `60*60` | `80*80` | `120*120` | `160*160` |
+| image120x120.png | `90*90` | `120*120` | `180*180` | `240*240` |
+| image200x172.png | `150*129` | `200*172` | `300*258` | `400*344` |
+| image227x227.png | `171*171` | `228*228` | `342*342` | `456*456` |
+| image296x296.png | `222*222` | `296*296` | `444*444` | `592*592` |
+| image327x327.png | `246*246` | `328*328` | `492*492` | `656*656` |
+| image602x338.png | `452*254` | `602*338` | `903*507` | `1204*676` |
+| image750x375.png | `563*281` | `750*375` | `1125*563` | `1500*750` |
+| image750x446.png | `563*335` | `750*447` | `1125*671` | `1500*894` |
+| image750x574.png | `563*431` | `750*574` | `1125*861` | `1500*1148` |
 
 #### 5. 主页底部导航栏替换
 - 在\thinksns-system-android\Thinksns_v4.0\res\下的对应的 drawable-hdpi 、drawable-xhdpi、drawable-xxhdpi、drawable-xxxhdpi 替换如下图标：  
   >![config_guide_tab]  
   
-|名字 |大小（宽x高）| 说明 | 图标 |
-|:-----:|:-----:|:-----:|:-----:|
-| compass_high.png | 120x98| 发现页选中图标  |![compass_high]|
-| compass_normal.png | 48x48 | 发现页未选中图标  |![compass_normal]|
-| home_high.png | 48x48 | 主页选中图标  |![home_high]|
-| home_normal.png | 48x48 | 主页未选中图标  |![home_normal]|
-| messages_high.png | 48x48 | 消息页选中图标  |![messages_high]|
-| messages_normal.png | 48x48 | 消息页未选中图标  |![messages_normal]|
-| user_high.png | 48x48 | 我的页面选中图标  |![user_high]|
-| user_normal.png | 48x48 | 我的页面未选中图标  |![user_normal]|
+|名字 | 说明 |
+|:-----:|:-----:|
+| compass_high.png | 发现页选中图标  |
+| compass_normal.png | 发现页未选中图标  |
+| home_high.png |  主页选中图标  |
+| home_normal.png |  主页未选中图标  |
+| messages_high.png | 消息页选中图标  |
+| messages_normal.png | 消息页未选中图标  |
+| user_high.png |  我的页面选中图标  |
+| user_normal.png |  我的页面未选中图标  |
 
 #### 6. App基础样式
 
