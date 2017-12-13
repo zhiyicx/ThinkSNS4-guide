@@ -14,8 +14,8 @@
 - **2、隐私政策网址(URL)  【选填 建议填写】**  
   - **说明** ：链接至您所在机构隐私政策的网址(URL)。所有面向儿童的 App，或者提供自动续订或免费订阅的 App，都必须提供隐私政策。此外，如果 App 包含帐户注册或需要访问用户的现有帐户，或由法律另行规定，也必须提供隐私政策。对于收集用户或设备相关数据的 App，也建议提供隐私政策。
   - **备注** ：基于TS的app可以：域名/ts4/api.php?mod=Public&act=showAgreement
-  - **举例** ：TS官方接口域名为：http://demo.thinksns.com，即填写：
-http://demo.thinksns.com/ts4/api.php?mod=Public&act=showAgreement
+  - **举例** ：TS官方接口域名为：http://demo.thinksns.com  
+               即填写：http://demo.thinksns.com/ts4/api.php?mod=Public&act=showAgreement
 
 - **3、套装 ID**  
   - **说明** ：套装 ID 必须与您在 Xcode 中使用的 ID 相符。该 ID 在您上传第一个构建版本后便无法更改。
