@@ -62,17 +62,17 @@
 - 2、为了避免冲突和因为主版本/pod目录未被Git仓库跟踪,所以建议尽量使用cocoapods来使用和管理三方,同时不允许修改pod管理的三方库源文件的源代码.
 
 ----------------------------------------
-[config_1]:./image/config_1.png
-[config_2]:./image/config_2.png
-[config_3]:./image/config_3.png
-[config_4]:./image/config_4.png
-[config_5]:./image/config_5.png
-[config_6]:./image/config_6.png
-[config_7]:./image/config_7.png
-[config_8]:./image/config_8.png
-[config_9]:./image/config_9.png
-[config_10]:./image/config_10.png
-[config_11]:./image/config_11.png
-[config_12]:./image/config_12.png
-[config_13]:./image/config_13.png
-[config_14]:./image/config_14.png
+[config_1]:../image/config_1.png
+[config_2]:../image/config_2.png
+[config_3]:../image/config_3.png
+[config_4]:../image/config_4.png
+[config_5]:../image/config_5.png
+[config_6]:../image/config_6.png
+[config_7]:../image/config_7.png
+[config_8]:../image/config_8.png
+[config_9]:../image/config_9.png
+[config_10]:../image/config_10.png
+[config_11]:../image/config_11.png
+[config_12]:../image/config_12.png
+[config_13]:../image/config_13.png
+[config_14]:../image/config_14.png
