@@ -9,8 +9,7 @@
 | 服务层 | ChatModel | 负责处理聊天的本地数据库入库与服务器通信问题 | （-(void)requestClearNewMessage:(ChatRoom *)room; | 发送请求清空对应房间的新消息，主要是进入房间时调用 | messgeIdArr | 获取到的消息数组，有可能本地正在存，服务器又推过来了，用来过滤掉这种情况 |
 ||| 请求需要手动调用，本地化会自动处理 | （-(void)requestDeleteRoom:(NSString *)roomId; | 发送请求删除房间，后台删除，与本地数据库无关，本地数据库是直接删除的 | dataSource | 当前用户的房间列表，对象数组,内部存储的是chatRoom，外部可以直接获取 |
 ||| 请求的回调全部采用通知，具体看每个通知代表什么意思，请自行百度翻译或看通知的注释 | （-(void)requestRoomList:(NSString *)roomId; | 获取房间列表，回调会自动本地化，如果传了roomId就是获取某个，没传就是获取整个房间列表 | saveSource | 要保存的房间列表，入库时使用，外部尽量不要调用该属性 |
-|||| （-(void)startRePostMessageQueue; | 启用重发队列，会自动在socket连接的时候启动，如果重发数组有值会进行重发 | restArr | 重发数组,里面是完整的消息信息,包括wsStr属性
- |
+|||| （-(void)startRePostMessageQueue; | 启用重发队列，会自动在socket连接的时候启动，如果重发数组有值会进行重发 | restArr | 重发数组,里面是完整的消息信息,包括wsStr属性 |
 |||| （-(void)logoOut; | 退出登录时调用，清空聊天的所有数据信息 | requestRooms | 正在请求的roomId数组，用来防止同一时间对一个房间信息进行重发拉取,请求成功会自动移除roomId |
 |||| （-(void)uploadImage:(UIImage *)image packId:(NSString *)packId localInfo:(NSDictionary *)localInfo localStr:(NSString *)imagePath roomId:(NSString *)roomId; | 上传图片给服务器 | chatingRoomId | 用户正处在的房间室的ID，用来判断用户是否在某个聊天室 |
 |||| （-(void)uploadVoice:(NSString *)filename length:(NSString *)passTimeStr packid:(NSString *)packId roomId:(NSString *)roomId; | 上传音频给服务器 | unReadCount | 未读消息个数，重写get方法实现，可以直接获取个数 |
