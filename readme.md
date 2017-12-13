@@ -22,24 +22,30 @@ ThinkSNS+ 产品使用指南,记录TS+全部产品使用手册等内容.
 
   - 服务端文档
   - 服务端部署视频
-- iOS端
+  
+- App端
+  - 公共
+    - [TS4部分图片大小建议](./技术文档/TS4-image-suggest.md)
+	
+  - iOS端
 
-  - iOS端开发须知
-  - iOS端二次开发文档
-  - iOS端应用配置
-  - APP Store上架指导
-  - iOS端打包操作指导
-  - SSL证书类型说明
-  - iOS端二次开发常见问题集
-  - [IOS App Store上架需要准备资料](./技术文档/IOS端/document/app/App_Store_Resource.md)
-  - [IOS 基本配置手册](./技术文档/IOS端/document/app/TS_IOS_Configure.md)
-  - [IOS开发文档](./技术文档/IOS端/document/app/TS4.2_IOS_Development.md)
-- Android端
+    - iOS端开发须知
+    - iOS端二次开发文档
+    - iOS端应用配置
+    - APP Store上架指导
+    - iOS端打包操作指导
+    - SSL证书类型说明
+    - iOS端二次开发常见问题集
+    - [IOS App Store上架需要准备资料](./技术文档/IOS端/document/app/App_Store_Resource.md)
+    - [IOS 基本配置手册](./技术文档/IOS端/document/app/TS_IOS_Configure.md)
+    - [IOS开发文档](./技术文档/IOS端/document/app/TS4.2_IOS_Development.md)
+	
+  - Android端
 
-  - [android打包教程](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/app/package_apk.md)
-  - [TS安卓APP安装文档](./技术文档/Android-Platform/document/app/InstallApk.md)
-  - [TS安卓素材替换文档最新](./技术文档/Android-Platform/document/app/SecondaryDevelopmentResourceReplaceTutorial.md)
-  - [创建Androi签名文件](./技术文档/Android-Platform/document/app/AndroidCreateSignatureFileTutorial.md)
+    - [android打包教程](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/app/package_apk.md)
+    - [TS安卓APP安装文档](./技术文档/Android-Platform/document/app/InstallApk.md)
+    - [TS安卓素材替换文档最新](./技术文档/Android-Platform/document/app/SecondaryDevelopmentResourceReplaceTutorial.md)
+    - [创建Androi签名文件](./技术文档/Android-Platform/document/app/AndroidCreateSignatureFileTutorial.md)
 - PC端
 
   - [PC端开发概述]
