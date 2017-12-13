@@ -31,9 +31,9 @@ ThinkSNS+ 产品使用指南,记录TS+全部产品使用手册等内容.
   - iOS端打包操作指导
   - SSL证书类型说明
   - iOS端二次开发常见问题集
-  - [IOS App Store上架需要准备资料](./技术文档/IOS 端/document/app/App Store上架需要准备资料.md)
-  - [IOS 基本配置手册](./技术文档/IOS 端/document/app/TS_IOS 基本配置手册.md)
-  - [IOS开发文档](./技术文档/IOS 端/document/app/TS4.2_IOS开发文档.md)
+  - [IOS App Store上架需要准备资料](./技术文档/IOS 端/document/app/App_Store_Resource.md)
+  - [IOS 基本配置手册](./技术文档/IOS 端/document/app/TS_IOS_Configure.md)
+  - [IOS开发文档](./技术文档/IOS 端/document/app/TS4.2_IOS_Development.md)
 - Android端
 
   - [android打包教程](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/app/package_apk.md)
