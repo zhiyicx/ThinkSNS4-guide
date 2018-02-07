@@ -117,22 +117,31 @@ Android 说明：   （宽）*（高） 单位：像素px
 - 桌面图标：［注意：不要切圆角，这个是正方形的］
  29x29、58×58、87×87、80x80、120x120、57x57、114x114、180x180
 
-![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_1.png)  
+![prepare_png_1]
 - 启动图：640 × 960、640 × 1136、1242 × 2208、750 × 1334
 
-![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_2.png)
+![prepare_png_2]
 - 登录页 logo：  477 × 107 
 
-![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_3.png)            
+![prepare_png_3]
 - 首页  banner logo：225 × 53 
 
-![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_4.png)
+![prepare_png_4]
 - 引导页  960 × 1704 
 
-![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_5.png) 
+![prepare_png_5]
 -  首页底部四个切换按钮  63 × 63 
 
-![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_6.png)
+![prepare_png_6]
 - 首页底部中间弹出按钮（加号样式） 128 × 98 
 
-![](https://github.com/zhiyicx/ThinkSNS4-guide/blob/master/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/Android-Platform/document/image/prepare_png_7.png)
+![prepare_png_7]
+
+________________________________________
+[prepare_png_1]:../image/prepare_png_1.png
+[prepare_png_2]:../image/prepare_png_2.png
+[prepare_png_3]:../image/prepare_png_3.png
+[prepare_png_4]:../image/prepare_png_4.png
+[prepare_png_5]:../image/prepare_png_5.png
+[prepare_png_6]:../image/prepare_png_6.png
+[prepare_png_7]:../image/prepare_png_7.png

@@ -2,10 +2,10 @@
 
 
 
-# ThinkSNS_v4.2 Android 
+# ThinkSNS_v4.6 Android 
 # Dev Doc
 
-###### 2017/01/22
+###### 2017/02/27
 
 
 ### 1. 简介
@@ -30,20 +30,22 @@
   5. PhotoMaster：图片手势多点触控三方库
   6. lib_vediorecorder ：视屏录制三方库
   7. javaapk.com-datapicker_library：时间选择器三方库
-  8. onekeyshare：快捷分享
-  9. mainlibs：该版本未用到，为扩展保留代码
+  8. onekeyshare：快捷分享（ShareSDK依赖库）
+  9. mainlibs：分享三方库（shareSDK）jar包
   10. playerview：视频播放三方库  
   
-  依赖关系：  
-  * 主Module依赖于lib_vediorecorder、PhotoMaster、TSChat、playerview；  
-  * TSChat 依赖于 ThinkSnsBase、onekeyshare；  
-  * ThinkSnsBase 依赖于 multi-image-selector；
+  依赖关系：
+  * 主Module依赖于lib_vediorecorder、PhotoMaster、TSChat、playerview；
+  * TSChat 依赖于 ThinkSnsBase；
+  * ThinkSnsBase 依赖于 multi-image-selector、onekeyshare；
+  * onekeyshare：依赖于 mainlibs
 
 2.2.3 模块分解  
   - 1 网络请求 
-    -  1.1 ThinkSnsBase\src\main\java\com\thinksns\sociax\thinksnsbase\network\ApiHttpClient利用loopj网络请求框架，应用的域名、网络协议都是在这个初始化的。
+    - 1.1 ThinkSnsBase\src\main\java\com\thinksns\sociax\thinksnsbase\network\ApiHttpClient利用loopj网络请求框架，应用的域名、网络协议都是在这个初始化的。
     - 1.2: Thinksns_v4.0\src\com\thinksns\sociax\net\Request.java
  利用Apache网络请求框架，封装相应的post和get请求（Thinksns_v4.0\src\com\thinksns\sociax\net\Post&Get），以及定义请求的回调接口，提供给controller控制
+	-  1.3 ThinkSnsBase\build.gradle下依赖的okHttp封装库 ```com.zhy:okhttputils:2.6.2```
  - 2 网络请求处理类：  
    - Thinksns_v4.0\src\com\thinksns\sociax\api
 Thinksns_v4.0\src\com\thinksns\sociax\t4\android\api
@@ -71,9 +73,20 @@ getLayoutId() | 设置资源文件
 onTouch() | 将touch交给手势处理
 getLeftListener() | Title左边的监听
 getRightListener() | Title右边的监听
+reLogin()   | 当前用户token失效（挤下线）或被删除，强制下线
 	
-	
-- 7、微博部分：
+  - 7 ThinkSnsBase\src\main\java\com\thinksns\sociax\thinksnsbase\base\BaseFragment.java 项目中fragment的基类，定义了一些共同需要的方法或属性
+重要方法或属性 | 说明
+---|---
+getLayoutId() | 设置资源文件
+needEventBus | 是否使用EventBus,默认:false
+initIntentData | 传递参数
+initPresenter |   初始化网络请求
+initView   |   初始化view
+initListener  | 监听事件
+initData   |   请求数据
+  
+- 8、微博部分：
   - Thinksns_v4.0\src\com\thinksns\sociax\t4\android\fragment\FragmentWeiboListViewNew.java微博类的列表全部都继承自此类
            Thinksns_v4.0\src\com\thinksns\sociax\t4.android.interfaces.WeiboListViewClickListener 连接了WeiboListListPresenter和FragmentWeiboListViewNew及AppendWeibo，里面是对列表的一些相关响应事件回调（如删除、关注、收藏、点赞）。
 

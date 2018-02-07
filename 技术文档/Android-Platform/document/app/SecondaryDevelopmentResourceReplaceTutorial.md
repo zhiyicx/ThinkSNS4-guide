@@ -51,7 +51,7 @@
   
 - 配置极光推送
 
-  >在主Model(Thinksns_v4.0)下的build.gradle中修改申请到的APPKEY如图  
+  >在主Model(Thinksns_v4.0)下的build.gradle中修改申请到的APPKEY如图
   >![config_jipush]
   
 - 配置高德地图
@@ -63,7 +63,7 @@
 
   >改主Model（Thinksns_v4.0）下的Android Manifest如图value值  
   >![config_umeng1]  
-  >更改三方分享链接地址（位于主Model下的string.xml）
+  >更改三方分享链接地址（位于主Model下的string.xml）;
   >![config_umeng2] 
 
 ### 服务器地址配置
@@ -136,9 +136,9 @@
 #### 6. App基础样式
 
 - App名称
-  >![config_app_name]
   - 文件所在位置为主工程下的res/app_init_set.xml文件
-  
+   >![config_app_name]
+
 - 顶部栏样式系统色调
   - 路径：thinksns-system-android\Thinksns_v4.0\res\values\thinksnsv4value.xml
   >![config_app_color]
