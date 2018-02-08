@@ -1,25 +1,9 @@
-2018年2月07日16:18
+2018年2月08日10:50
 
 # Android应用市场
 
 ## 1. 360应用市场
 [上架流程+要求](http://dev.360.cn/wiki/index/id/21)
-
-字段 | 描述
---- | ---
-软件安装包 |选填
-分类 |
-个性推荐语 |原应用简介，但主要用于精准推荐首页展示，填写时需结合用户使用场景，限制13个字以内。
-版权证明 |JPG、PNG或压缩包格式，图片大小不能超过1MB，有多个文件请打包为RAR、ZIP格式，大小不能超过10MB
-支持语言 |
-资费类型 |
-应用简介 |50-1500字，请向用户介绍一下你的应用。
-当前版本介绍 |10-400字符，请向用户介绍当前应用版本及更新内容。
-APK获取敏感隐私权限列表|系统检测到此APK文件调用了用户手机敏感隐私权限，应工信部要求需对敏感隐私权限的获取做出合理说明，例子：调用短信是方便用户通过短信邀请加为好友；
-应用图标 |要求与安装包中图标一致。尺寸：512*512PX，圆角半径弧度：70PX，图片格式：PNG
-应用截图 |请上传4-5张截图（尺寸保持一致），支持JPG、PNG格式。截图尺寸要求：不小于800*480（480*800），单张图片不能超过3M。请去除截图中的顶部通知栏。
-审核辅助说明 |(选填)如修改了包的签名，需在此填写修改签名原因。 应用的测试账号、密码；最多不超过400字。
-当前版本介绍 |
 
 ## 应用宝
 [应用宝上架](http://wiki.open.qq.com/wiki/%E5%88%9B%E5%BB%BA%E6%96%B0%E5%BA%94%E7%94%A8)
@@ -44,6 +28,14 @@ APK获取敏感隐私权限列表|系统检测到此APK文件调用了用户手�
 资费类型| 使用该应用的付费状况
 设备信息|Phone Pad
 版权证明|**必填** 大小2M以内，支持JPG/PNG格式的
+
+## 阿里应用
+- 含豌豆荚、阿里九游、PP助手、UC应用商店、神马搜索
+
+[上架规则](http://aliapp.open.uc.cn/wiki/?p=40)
+
+## 百度手机助手
+[上架规则](http://app.baidu.com/docs?id=5&frompos=401007)
 
 ## 小米商店
 [上架说明](https://dev.mi.com/console/doc/detail?pId=878)
@@ -79,9 +71,49 @@ APK获取敏感隐私权限列表|系统检测到此APK文件调用了用户手�
 ## 联想商店
 [上架规则](http://open.lenovo.com/developer/adp/helpData/database_detail.jsp?url=http://open.lenovo.com/sdk/?p=796)
 
+## oppo商店
+[上架规则](https://open.oppomobile.com/wiki/doc#id=10035)
+
+## 乐视商店
+[准备资料](http://open.letv.com/guide/?page_id=1495)
+[上架规则](http://open.le.com/guide/?page_id=3017)
+
+## 三星商城
+[上架规则]()
+
+## 金立商城
+[上架规则](http://open.appgionee.com/cp/help)
+
+## 努比亚应用中心
+- 账号无法登录
+
+- [上架流程简要](http://developer.nubia.com/developer/view/help/help_center.html?categoryName=%E5%BC%80%E5%8F%91%E8%80%85%E6%9C%8D%E5%8A%A1&articleName=%E5%BC%80%E5%8F%91%E8%80%85%E6%B3%A8%E5%86%8C%E6%8C%87%E5%BC%95&articleUrl=/61/53.html)
+
+## 联想商城
+- 登录才能查看 [上架规则](http://open.lenovo.com/developer/adp/helpData/database_detail.jsp?url=http://open.lenovo.com/sdk/?p=796)
+
+## 锤子商城
+字  段  | 描述
+---  |  ---
+安装包 | apk
+应用名称| 最多10字
+标签 |每个标签最多 5 个中文，10 个英文
+描述 |30-500个汉字
+应用图标 |512*512，不超过 1MB，PNG格式
+应用截图 |3~5 张 JPG 格式截图，分辨率为 1080*1920，不超过 1MB [示例](http://app-img.smartisanos.cn/dev/wiki/printscreen.jpg)
+介绍视频 | (选填)视频内容必须与应用相关，含暴力、色情、第三等信息将被驳回
+付费状况| 使用该应用的付费状况
+隐私| 该应用中使用高风险权限解释
+资质证明|医疗、股票证券、理财、彩票、新闻等特殊行业应用需上传对应的资质证明，格式为 JPG 或 PNG（如材料较多可拼接为长图）,不超过 5M [解释](http://dev.smartisan.com/#/wiki/quali)
+软件著作权证明|如无，请提供《开发者权利声明》（格式自拟，需公司盖章或开发者签名）图片格式为 JPG 或 PNG，大小不超过 5M。[示例](http://dev.smartisan.com/#/app/edit/1383297/2)
+
 ## 安智市场
 [上架规则](http://dev.anzhi.com/help.php?type=help&id=63)
 - 对提交应用具体填写信息没有说明
+
+## ZUK商城
+- 开发平台
+
 
 
 
