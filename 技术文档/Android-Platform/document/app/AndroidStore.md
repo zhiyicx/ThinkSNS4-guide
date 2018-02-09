@@ -79,7 +79,7 @@
 [上架规则](http://open.le.com/guide/?page_id=3017)
 
 ## 三星商城
-[上架规则]()
+[上架规则](../files/saungStoreRule.pdf)
 
 ## 金立商城
 [上架规则](http://open.appgionee.com/cp/help)
@@ -113,6 +113,7 @@
 
 ## ZUK商城
 - 开发平台
+
 
 
 
