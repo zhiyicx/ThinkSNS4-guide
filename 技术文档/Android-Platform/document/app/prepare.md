@@ -40,7 +40,8 @@ http://developer.huawei.com/cn/
  .2) 必须申请成为个人开发者或者企业开发者  
       * 企业开发者拥有更高的使用权限，这个影响不大。  
       * 认证地址：http://open.qq.com/reg  
-      * 认证需要资料：http://open.qq.com/reg  		
+      * 认证需要资料：http://open.qq.com/reg
+ .3) 必须拥有软著 （计算机软件著作权）：http://c.qq.com/ListSku/view?firstCateId=100002&thirdCateId=100090&zctag=1.3.4.3
  
 - 4.2 微信  
 费用：使用免费，认证费用300MB/年   
